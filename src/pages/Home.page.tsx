@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
             <Navbar 
                 active={PageEnum.Home}
             />
-            <Container fluid>
+            <Container fluid className={homeStyle["background"]}>
                 <Row>
                     <Col xs={3} className={homeStyle["sidebar"]}>
                         <Sidebar />
